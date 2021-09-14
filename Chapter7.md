@@ -15,7 +15,7 @@
  > When adjacent layers have similar abstractions, the problem often manifests itself in the form of *pass-through* methods.
  - A pass-through method is one that does little except invoke another method, whose signature is similar or identical to that of the calling method. 
 
- ## RED FLAG: Shallow Module
+ ## RED FLAG: Pass-Through Method
   - A pass-through method is one that does nothing except pass its arguments to another method, usually with the same API as the pass-through method. This typically indicates that there is not a clean division of responsibility between the classes.
 
  > Pass-through methods make classes shallower: they increase the interface complexity of the class, which adds complexity, but they don’t increase the total functionality of the system.
