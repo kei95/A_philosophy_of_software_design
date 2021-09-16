@@ -62,6 +62,8 @@
 
 ## 5.4, 5.5 Example HTTP server
  > The students in the course were asked to implement one or more classes to make it easy for Web servers to receive incoming HTTP requests and send responses(See figure 5.1 below).
+
+ ## Figure 5.1
 ![image info](./images/Figure5-1.png)
 
  > The most common mistake made by students was to divide their code into a large number of shallow classes, which led to information leakage between the classes.
